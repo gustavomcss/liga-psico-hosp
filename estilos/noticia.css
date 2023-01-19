@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* TEXTO */
+
+main > article > h2 {
+    margin-bottom: 32px;
+}
+
+main > article > .conteudo-text {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main > article > .conteudo-text > p {
+    margin: 10px 0px;
+}
+
+/* IMAGENS */
+
+main > article > .conteudo-img {
+    padding: 8px;
+}
+
+main > article > .conteudo-img > img {
+    display: block;
+    max-width: 320px;
+    margin: auto;
+}
+
+/* REFERÊNCIA */
+
+main > article > .referencia > p {
+    text-decoration: none;
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 35px;
+}
+
+main > article > .referencia > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+main > article > .referencia > p > a:hover {
+    text-decoration: underline;
+}

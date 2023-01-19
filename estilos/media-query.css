@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* MEDIA-QUERY para ajuste do NAVEGADOR e MENU */
+
+@media screen and (min-width: 600px) {
+    i#burguer {
+        display: none;
+    }
+
+    header > nav {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    header > nav > a {
+        color: var(--color-fonte);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 3px 4px;
+        border-radius: 6px;
+    }
+
+    header > nav > a:hover {
+        background-color: #3983975b;
+        transition: 0.75s;
+    }
+
+}
