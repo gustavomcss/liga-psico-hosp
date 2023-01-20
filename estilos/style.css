@@ -36,13 +36,14 @@ header {
 }
 
 header > a > img {
+    display: flex;
     height: 60px;
     width: 60px;
 }
 
 header > h1 {
-    margin-left: 10px;
-    margin-right: auto;
+    display: flex;
+    margin: 0px auto;
 }
 
 header > h1 > a {
