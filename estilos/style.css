@@ -43,7 +43,7 @@ header > a > img {
 
 header > h1 {
     display: flex;
-    margin: 0px auto;
+    margin-right: auto;
 }
 
 header > h1 > a {
