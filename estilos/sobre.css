@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+main > h2 {
+    margin-bottom: 28px;
+}
+
+main > p {
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
+    margin: 10px 0px;
+}
+
+main > div.membro {
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    margin: auto;
+    border: 0.5px solid black;
+}
+
+main > div.membro > img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+main > div.membro > div.conteudo-membro > h2 {
+    font-size: 1.25em;
+}
+
