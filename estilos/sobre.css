@@ -6,18 +6,18 @@ main > h2 {
 
 main > p {
     text-align: justify;
+    margin: 10px 0px;
     line-height: 1.5em;
     text-indent: 30px;
-    margin: 10px 0px;
 }
 
 main > div.membro {
     background-color: #F4F4F4;
+    margin: 0px auto 10px auto;
+    border: 0.5px solid black;
     text-align: center;
     padding: 10px;
     max-width: 250px;
-    margin: auto;
-    border: 0.5px solid black;
 }
 
 main > div.membro > img {
@@ -26,7 +26,7 @@ main > div.membro > img {
     margin-bottom: 5px;
 }
 
-main > div.membro > div.conteudo-membro > h2 {
+main > div.membro > div.info-membro > h2 {
     font-size: 1.25em;
 }
 
