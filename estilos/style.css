@@ -96,9 +96,9 @@ menu > ul > li > a {
 
 main {
     background-color: var(--color05);
-    padding: 25px;
+    padding: 30px;
     margin: 15px auto 0px auto;
-    max-width: 1250px;
+    max-width: 1150px;
 }
 
 main > .news {

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* TEXTO */
+
 main > h2 {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -12,7 +14,9 @@ main > p {
     text-indent: 30px;
 }
 
-main > div.linha > div.membro {
+/* MEMBROS */
+
+main div.linha2 div.membro {
     background-color: #F4F4F4;
     margin: 16px auto;
     border: 1px solid #00000090;
@@ -21,18 +25,20 @@ main > div.linha > div.membro {
     max-width: 230px;
 }
 
-main > div.linha > div.membro > img {
+main div.membro img {
     width: 230px;
     height: 230px;
     margin-bottom: 8px;
 }
 
-main > div.linha > div.membro > div.info-membro > h2 {
+main div.info-membro h2 {
     font-size: 1.25em;
 }
 
+/* APRESENTAÇÃO DOS MEMBROS EM DUAS COLUNAS */
+
 @media screen and (min-width: 600px) {
-    main > div.linha {
+    main > div.linha2 {
         display: flex;
         text-align: center;
         align-items: center;
@@ -40,7 +46,9 @@ main > div.linha > div.membro > div.info-membro > h2 {
         gap: 16px;
     }
 
-    main > div.linha > div.membro {
+    main > div.linha2 > div.membro {
         margin: 0px 0px 16px 0px;
     }
 }
+
+/* APRESENTAÇÃO DOS MEMBROS EM TRÊS COLUNAS */
