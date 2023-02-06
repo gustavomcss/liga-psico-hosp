@@ -96,7 +96,7 @@ menu > ul > li > a {
 
 main {
     background-color: var(--color05);
-    padding: 30px;
+    padding: 25px;
     margin: 15px auto 0px auto;
     max-width: 1150px;
 }

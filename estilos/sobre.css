@@ -16,39 +16,25 @@ main > p {
 
 /* MEMBROS */
 
-main div.linha2 div.membro {
-    background-color: #F4F4F4;
-    margin: 16px auto;
-    border: 1px solid #00000090;
+main > div.equipe {
+    text-align: center;
+    margin: auto;
+    padding: 0px 45px;
+}
+
+main > div.equipe > div.membro {
+    border: 1px solid black;
+    display: inline-block;
     text-align: center;
     padding: 8px;
-    max-width: 230px;
+    margin: 0px 5px 14px 5px;
 }
 
-main div.membro img {
-    width: 230px;
+main > div.equipe > div.membro > img {
     height: 230px;
-    margin-bottom: 8px;
+    width: 230px;
 }
 
-main div.info-membro h2 {
+main > div.equipe > div.membro > h2 {
     font-size: 1.25em;
 }
-
-/* APRESENTAÇÃO DOS MEMBROS EM DUAS COLUNAS */
-
-@media screen and (min-width: 600px) {
-    main > div.linha2 {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
-    }
-
-    main > div.linha2 > div.membro {
-        margin: 0px 0px 16px 0px;
-    }
-}
-
-/* APRESENTAÇÃO DOS MEMBROS EM TRÊS COLUNAS */
