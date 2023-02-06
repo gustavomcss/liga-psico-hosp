@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+main > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+
+main > h2 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+main > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    main > p.especial {
+        text-indent: 0px;
+    }
+}
