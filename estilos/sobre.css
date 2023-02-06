@@ -19,7 +19,7 @@ main > p {
 main > div.equipe {
     text-align: center;
     margin: auto;
-    padding: 0px 45px;
+    padding: 15px 45px;
 }
 
 main > div.equipe > div.membro {
