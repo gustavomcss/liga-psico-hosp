@@ -23,7 +23,7 @@ main > div.equipe {
 }
 
 main > div.equipe > div.membro {
-    border: 1px solid black;
+    border: 1px solid #00000095;
     display: inline-block;
     text-align: center;
     padding: 8px;
