@@ -38,10 +38,6 @@ main > article > .referencia > p {
 }
 
 main > article > .referencia > p > a {
-    text-decoration: none;
-    color: black;
-}
-
-main > article > .referencia > p > a:hover {
     text-decoration: underline;
+    color: black;
 }
